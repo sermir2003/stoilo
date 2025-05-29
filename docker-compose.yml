@@ -1,0 +1,71 @@
+services:
+  mariadb:
+    image: mariadb:10.11
+    container_name: mariadb
+    environment:
+      MYSQL_ROOT_PASSWORD: db_password
+    ports:
+      - 3306:3306
+    networks:
+      - stoilo-network
+
+  server.com:
+    build:
+      context: .
+      dockerfile: server/deploy/Dockerfile
+    container_name: server
+    environment:
+      - URL_BASE=http://server.com/
+      - DB_HOST=mariadb
+      - DB_PORT=3306
+      - DB_USER=root
+      - DB_PASSWORD=db_password
+      - DB_NAME=stoilo
+      - TASK_SERVICE_HOST=0.0.0.0
+      - TASK_SERVICE_PORT=57010
+      - TASK_SERVICE_POOL_SIZE=5
+      - OPS_LOGIN=ops_login
+      - OPS_PASSWORD=ops_password
+    ports:
+      - 8080:80
+      - 57010:57010
+    networks:
+      - stoilo-network
+
+  volunteer-1:
+    build:
+      context: volunteer
+      dockerfile: Dockerfile
+    container_name: volunteer-1
+    environment:
+      - PROJECT_URL=http://server.com/stoilo
+      - FORCE_UPDATE_INTERVAL=30
+    networks:
+      - stoilo-network
+
+  volunteer-2:
+    build:
+      context: volunteer
+      dockerfile: Dockerfile
+    container_name: volunteer-2
+    environment:
+      - PROJECT_URL=http://server.com/stoilo
+      - FORCE_UPDATE_INTERVAL=30
+    networks:
+      - stoilo-network
+
+  volunteer-3:
+    build:
+      context: volunteer
+      dockerfile: Dockerfile
+    container_name: volunteer-3
+    environment:
+      - PROJECT_URL=http://server.com/stoilo
+      - FORCE_UPDATE_INTERVAL=30
+    networks:
+      - stoilo-network
+
+
+networks:
+  stoilo-network:
+    driver: bridge

@@ -1,0 +1,11 @@
+if [ -f /root/credentials.sh ]; then
+  source /root/credentials.sh
+  export ACCOUNT_NAME
+  export ACCOUNT_EMAIL
+  export ACCOUNT_PASSWORD
+fi
+
+if [ -f /root/account_key.sh ]; then
+  source /root/account_key.sh
+  export ACCOUNT_KEY
+fi
