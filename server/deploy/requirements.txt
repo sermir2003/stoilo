@@ -1,0 +1,7 @@
+cloudpickle==3.1.1
+grpcio==1.71.0
+grpcio-tools==1.71.0
+mysql-connector-python==9.3.0
+mysqlclient==2.2.7
+protobuf==5.29.4
+setuptools==80.1.0

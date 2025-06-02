@@ -1,0 +1,14 @@
+<version>
+   <file>
+      <physical_name>wrapper_26014_x86_64-pc-linux-gnu</physical_name>
+      <main_program/>
+   </file>
+   <file>
+      <physical_name>raboshka_44814764c91bf9ef426c4aa899df974f_2.0_x86_64-pc-linux-gnu</physical_name>
+      <logical_name>raboshka</logical_name>
+   </file>
+   <file>
+      <physical_name>jobxml_raboshka_44814764c91bf9ef426c4aa899df974f_2.0_x86_64-pc-linux-gnu.xml</physical_name>
+      <logical_name>job.xml</logical_name>
+   </file>
+</version>

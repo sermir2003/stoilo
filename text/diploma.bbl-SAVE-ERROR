@@ -1,0 +1,735 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{alonso2017new}{article}{}
+      \name{author}{3}{}{%
+        {{hash=602c1715aa926338fb575784babe6c7c}{%
+           family={Alonso-Monsalve},
+           familyi={A\bibinithyphendelim M\bibinitperiod},
+           given={Saúl},
+           giveni={S\bibinitperiod}}}%
+        {{hash=d0cdedaf6d23bbc1b980b83dfeedc929}{%
+           family={García-Carballeira},
+           familyi={G\bibinithyphendelim C\bibinitperiod},
+           given={Félix},
+           giveni={F\bibinitperiod}}}%
+        {{hash=a30c971552565bb67d0e5d11ad69f584}{%
+           family={Calderón},
+           familyi={C\bibinitperiod},
+           given={Alejandro},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley Online Library}%
+      }
+      \strng{namehash}{39512e97edf11d5135dbae81bb7ebb5c}
+      \strng{fullhash}{39512e97edf11d5135dbae81bb7ebb5c}
+      \strng{bibnamehash}{39512e97edf11d5135dbae81bb7ebb5c}
+      \strng{authorbibnamehash}{39512e97edf11d5135dbae81bb7ebb5c}
+      \strng{authornamehash}{39512e97edf11d5135dbae81bb7ebb5c}
+      \strng{authorfullhash}{39512e97edf11d5135dbae81bb7ebb5c}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Concurrency and Computation: Practice and Experience}
+      \field{number}{24}
+      \field{title}{A New Volunteer Computing Model for Data-Intensive Applications}
+      \field{volume}{29}
+      \field{year}{2017}
+      \field{pages}{e4198}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1002/cpe.4198
+      \endverb
+    \endentry
+    \entry{anderson2004boinc}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{hash=81aeb47b3ff388d08b633fe3e3bc506a}{%
+           family={Anderson},
+           familyi={A\bibinitperiod},
+           given={D.\bibnamedelimi P.},
+           giveni={D\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \strng{namehash}{81aeb47b3ff388d08b633fe3e3bc506a}
+      \strng{fullhash}{81aeb47b3ff388d08b633fe3e3bc506a}
+      \strng{bibnamehash}{81aeb47b3ff388d08b633fe3e3bc506a}
+      \strng{authorbibnamehash}{81aeb47b3ff388d08b633fe3e3bc506a}
+      \strng{authornamehash}{81aeb47b3ff388d08b633fe3e3bc506a}
+      \strng{authorfullhash}{81aeb47b3ff388d08b633fe3e3bc506a}
+      \field{extraname}{1}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the Fifth IEEE/ACM International Workshop on Grid Computing (GRID)}
+      \field{title}{BOINC: A System for Public-Resource Computing and Storage}
+      \field{year}{2004}
+      \field{pages}{4\bibrangedash 10}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1109/GRID.2004.14
+      \endverb
+      \keyw{Grid computing,Personal communication networks,Supercomputers,Middleware,Computer networks,Application software,Resource management,Internet,Open source software,Laboratories}
+    \endentry
+    \entry{anderson2020boinc}{article}{}
+      \name{author}{1}{}{%
+        {{hash=91b2c35c5abb75300d554ba6e98d4fe4}{%
+           family={Anderson},
+           familyi={A\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{91b2c35c5abb75300d554ba6e98d4fe4}
+      \strng{fullhash}{91b2c35c5abb75300d554ba6e98d4fe4}
+      \strng{bibnamehash}{91b2c35c5abb75300d554ba6e98d4fe4}
+      \strng{authorbibnamehash}{91b2c35c5abb75300d554ba6e98d4fe4}
+      \strng{authornamehash}{91b2c35c5abb75300d554ba6e98d4fe4}
+      \strng{authorfullhash}{91b2c35c5abb75300d554ba6e98d4fe4}
+      \field{extraname}{2}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Grid Computing}
+      \field{number}{1}
+      \field{title}{BOINC: A Platform for Volunteer Computing}
+      \field{volume}{18}
+      \field{year}{2020}
+      \field{pages}{99\bibrangedash 122}
+      \range{pages}{24}
+      \verb{doi}
+      \verb 10.1007/s10723-020-09509-9
+      \endverb
+    \endentry
+    \entry{Anderson2002}{article}{}
+      \name{author}{5}{}{%
+        {{hash=c8cf0cc669808e794e1836fbd4a87a66}{%
+           family={Anderson},
+           familyi={A\bibinitperiod},
+           given={David\bibnamedelima P.},
+           giveni={D\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=c430c67862f78c1a25523386270d64fd}{%
+           family={Cobb},
+           familyi={C\bibinitperiod},
+           given={Jeff},
+           giveni={J\bibinitperiod}}}%
+        {{hash=e3e40460b6bc9cf4395c0802d26d4847}{%
+           family={Korpela},
+           familyi={K\bibinitperiod},
+           given={Eric},
+           giveni={E\bibinitperiod}}}%
+        {{hash=76b6df759a9c59b3165d92d95e70bc91}{%
+           family={Lebofsky},
+           familyi={L\bibinitperiod},
+           given={Matt},
+           giveni={M\bibinitperiod}}}%
+        {{hash=52591b90b9b4f257a41cf2970a2a5e52}{%
+           family={Werthimer},
+           familyi={W\bibinitperiod},
+           given={Dan},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{f1c25b075f1cfc0647ce9a9a2e509f3c}
+      \strng{fullhash}{bf9839480d4fb5908d9e5e2a0bf4654c}
+      \strng{bibnamehash}{bf9839480d4fb5908d9e5e2a0bf4654c}
+      \strng{authorbibnamehash}{bf9839480d4fb5908d9e5e2a0bf4654c}
+      \strng{authornamehash}{f1c25b075f1cfc0647ce9a9a2e509f3c}
+      \strng{authorfullhash}{bf9839480d4fb5908d9e5e2a0bf4654c}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Communications of the ACM}
+      \field{number}{11}
+      \field{title}{SETI@home: An Experiment in Public-Resource Computing}
+      \field{volume}{45}
+      \field{year}{2002}
+      \field{pages}{56\bibrangedash 61}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1145/581495.581497
+      \endverb
+    \endentry
+    \entry{atre2021distributed}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=50974bd294a5dda26420241511aa9b87}{%
+           family={Atre},
+           familyi={A\bibinitperiod},
+           given={Medha},
+           giveni={M\bibinitperiod}}}%
+        {{hash=eb02c3b8bc6186fc8c18c11a9da29b58}{%
+           family={Jha},
+           familyi={J\bibinitperiod},
+           given={Birendra},
+           giveni={B\bibinitperiod}}}%
+        {{hash=d71579026eecb72cfbf440322d5961b3}{%
+           family={Rao},
+           familyi={R\bibinitperiod},
+           given={Ashwini},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{db30041d0b3411bd4e9cf45fd55145ac}
+      \strng{fullhash}{db30041d0b3411bd4e9cf45fd55145ac}
+      \strng{bibnamehash}{db30041d0b3411bd4e9cf45fd55145ac}
+      \strng{authorbibnamehash}{db30041d0b3411bd4e9cf45fd55145ac}
+      \strng{authornamehash}{db30041d0b3411bd4e9cf45fd55145ac}
+      \strng{authorfullhash}{db30041d0b3411bd4e9cf45fd55145ac}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 2021 IEEE International Parallel and Distributed Processing Symposium Workshops (IPDPSW)}
+      \field{title}{Distributed Deep Learning Using Volunteer Computing-Like Paradigm}
+      \field{year}{2021}
+      \field{pages}{933\bibrangedash 942}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1109/IPDPSW52791.2021.00144
+      \endverb
+      \keyw{Training,Deep learning,Fault tolerance,Distributed processing,Sentiment analysis,Fault tolerant systems,Distributed databases,Distributed systems,Distributed training,Deep learning,Volunteer computing,ASGD}
+    \endentry
+    \entry{ben-nun2019demystifying}{article}{}
+      \name{author}{2}{}{%
+        {{hash=f197c39c9873860e113582f963ac1e68}{%
+           family={Ben-Nun},
+           familyi={B\bibinithyphendelim N\bibinitperiod},
+           given={Tal},
+           giveni={T\bibinitperiod}}}%
+        {{hash=76ec76312292adb42427d46f3efb852b}{%
+           family={Hoefler},
+           familyi={H\bibinitperiod},
+           given={Torsten},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {New York, NY, USA}%
+      }
+      \list{publisher}{1}{%
+        {Association for Computing Machinery}%
+      }
+      \strng{namehash}{51cc4d384416394af7310fe26a6382d7}
+      \strng{fullhash}{51cc4d384416394af7310fe26a6382d7}
+      \strng{bibnamehash}{51cc4d384416394af7310fe26a6382d7}
+      \strng{authorbibnamehash}{51cc4d384416394af7310fe26a6382d7}
+      \strng{authornamehash}{51cc4d384416394af7310fe26a6382d7}
+      \strng{authorfullhash}{51cc4d384416394af7310fe26a6382d7}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0360-0300}
+      \field{journaltitle}{ACM Computing Surveys}
+      \field{month}{8}
+      \field{number}{4}
+      \field{title}{Demystifying Parallel and Distributed Deep Learning: An In-depth Concurrency Analysis}
+      \field{volume}{52}
+      \field{year}{2019}
+      \field{pages}{65:1\bibrangedash 65:43}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1145/3320060
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1145/3320060
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1145/3320060
+      \endverb
+      \keyw{Deep learning,distributed computing,parallel algorithms}
+    \endentry
+    \entry{Clemens2021}{article}{}
+      \name{author}{1}{}{%
+        {{hash=5875059ffa5a093df89aff60d00b4c0e}{%
+           family={Clemens},
+           familyi={C\bibinitperiod},
+           given={James},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{5875059ffa5a093df89aff60d00b4c0e}
+      \strng{fullhash}{5875059ffa5a093df89aff60d00b4c0e}
+      \strng{bibnamehash}{5875059ffa5a093df89aff60d00b4c0e}
+      \strng{authorbibnamehash}{5875059ffa5a093df89aff60d00b4c0e}
+      \strng{authornamehash}{5875059ffa5a093df89aff60d00b4c0e}
+      \strng{authorfullhash}{5875059ffa5a093df89aff60d00b4c0e}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv preprint arXiv:2104.10555}
+      \field{title}{MLDS: A Dataset for Weight-Space Analysis of Neural Networks}
+      \field{year}{2021}
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2104.10555
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2104.10555
+      \endverb
+    \endentry
+    \entry{costa2008optimizing}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=dcb7a4393de31ce856f9c6674ff9ad53}{%
+           family={Costa},
+           familyi={C\bibinitperiod},
+           given={Fernando},
+           giveni={F\bibinitperiod}}}%
+        {{hash=6cfcba68ee5ff5f6b858faa29fe23d9f}{%
+           family={Silva},
+           familyi={S\bibinitperiod},
+           given={Luis},
+           giveni={L\bibinitperiod}}}%
+        {{hash=e5f3eb0a5b5141946be08beaabbe7231}{%
+           family={Fedak},
+           familyi={F\bibinitperiod},
+           given={Gilles},
+           giveni={G\bibinitperiod}}}%
+        {{hash=6faf9057ff8670237990a2ea4adf386b}{%
+           family={Kelley},
+           familyi={K\bibinitperiod},
+           given={Ian},
+           giveni={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{13d71def1fef71e942c0fd070feffc0e}
+      \strng{fullhash}{53b086b85a047d1eb64999c750393ab5}
+      \strng{bibnamehash}{53b086b85a047d1eb64999c750393ab5}
+      \strng{authorbibnamehash}{53b086b85a047d1eb64999c750393ab5}
+      \strng{authornamehash}{13d71def1fef71e942c0fd070feffc0e}
+      \strng{authorfullhash}{53b086b85a047d1eb64999c750393ab5}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 2008 IEEE International Symposium on Parallel and Distributed Processing (IPDPS)}
+      \field{title}{Optimizing the Data Distribution Layer of BOINC with BitTorrent}
+      \field{year}{2008}
+      \field{pages}{1\bibrangedash 8}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1109/IPDPS.2008.4536446
+      \endverb
+      \keyw{Testing,Middleware,Data models,Prototypes,Network servers,File servers,Bandwidth,Distributed computing,Time sharing computer systems,Performance evaluation}
+    \endentry
+    \entry{Desell2017}{article}{}
+      \name{author}{1}{}{%
+        {{hash=1f3d6e27fab7dc9415e7dd0e60efc260}{%
+           family={Desell},
+           familyi={D\bibinitperiod},
+           given={Travis},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{1f3d6e27fab7dc9415e7dd0e60efc260}
+      \strng{fullhash}{1f3d6e27fab7dc9415e7dd0e60efc260}
+      \strng{bibnamehash}{1f3d6e27fab7dc9415e7dd0e60efc260}
+      \strng{authorbibnamehash}{1f3d6e27fab7dc9415e7dd0e60efc260}
+      \strng{authornamehash}{1f3d6e27fab7dc9415e7dd0e60efc260}
+      \strng{authorfullhash}{1f3d6e27fab7dc9415e7dd0e60efc260}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv preprint arXiv:1703.05422}
+      \field{title}{Large Scale Evolution of Convolutional Neural Networks Using Volunteer Computing}
+      \field{year}{2017}
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/1703.05422
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/1703.05422
+      \endverb
+    \endentry
+    \entry{Foster2001}{article}{}
+      \name{author}{3}{}{%
+        {{hash=ef1fd4a400dec702b5baeeac0f942be7}{%
+           family={Foster},
+           familyi={F\bibinitperiod},
+           given={Ian},
+           giveni={I\bibinitperiod}}}%
+        {{hash=5bfec4c02577e5f42b9a44b0fd808e64}{%
+           family={Kesselman},
+           familyi={K\bibinitperiod},
+           given={Carl},
+           giveni={C\bibinitperiod}}}%
+        {{hash=07d664b9e9a327fef86e9537c229bd71}{%
+           family={Tuecke},
+           familyi={T\bibinitperiod},
+           given={Steven},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{d6d19d8cc4710ab5f5afab0be7badec6}
+      \strng{fullhash}{d6d19d8cc4710ab5f5afab0be7badec6}
+      \strng{bibnamehash}{d6d19d8cc4710ab5f5afab0be7badec6}
+      \strng{authorbibnamehash}{d6d19d8cc4710ab5f5afab0be7badec6}
+      \strng{authornamehash}{d6d19d8cc4710ab5f5afab0be7badec6}
+      \strng{authorfullhash}{d6d19d8cc4710ab5f5afab0be7badec6}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International Journal of High Performance Computing Applications}
+      \field{number}{3}
+      \field{title}{The Anatomy of the Grid: Enabling Scalable Virtual Organizations}
+      \field{volume}{15}
+      \field{year}{2001}
+      \field{pages}{200\bibrangedash 222}
+      \range{pages}{23}
+      \verb{doi}
+      \verb 10.1177/109434200101500302
+      \endverb
+    \endentry
+    \entry{he2015deepresidual}{misc}{}
+      \name{author}{4}{}{%
+        {{hash=6b4b60e909e78633945f3f9c9dc83e01}{%
+           family={He},
+           familyi={H\bibinitperiod},
+           given={Kaiming},
+           giveni={K\bibinitperiod}}}%
+        {{hash=5e72bc22dbcf0984c6d113d280e36990}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Xiangyu},
+           giveni={X\bibinitperiod}}}%
+        {{hash=bb295293acacd54387339079ebbe4ead}{%
+           family={Ren},
+           familyi={R\bibinitperiod},
+           given={Shaoqing},
+           giveni={S\bibinitperiod}}}%
+        {{hash=f85751488058842b5777c7b4074077b5}{%
+           family={Sun},
+           familyi={S\bibinitperiod},
+           given={Jian},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{6edb98fe38401d2fe4a026f5ce6e8451}
+      \strng{fullhash}{42c4b52dc3a62cebabbc11c73e1afb53}
+      \strng{bibnamehash}{42c4b52dc3a62cebabbc11c73e1afb53}
+      \strng{authorbibnamehash}{42c4b52dc3a62cebabbc11c73e1afb53}
+      \strng{authornamehash}{6edb98fe38401d2fe4a026f5ce6e8451}
+      \strng{authorfullhash}{42c4b52dc3a62cebabbc11c73e1afb53}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{cs.CV}
+      \field{eprinttype}{arXiv}
+      \field{title}{Deep Residual Learning for Image Recognition}
+      \field{year}{2015}
+      \verb{eprint}
+      \verb 1512.03385
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/1512.03385
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/1512.03385
+      \endverb
+    \endentry
+    \entry{Mengistu2019}{article}{}
+      \name{author}{2}{}{%
+        {{hash=7f72b3a08b43a00c8faf33e4eb62a0b9}{%
+           family={Mengistu},
+           familyi={M\bibinitperiod},
+           given={Teshome\bibnamedelima M.},
+           giveni={T\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=2ef7b1fa288bc4267fa21711b663dd2f}{%
+           family={Che},
+           familyi={C\bibinitperiod},
+           given={Dandan},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{d486222fa09154b40a44b57b2827362a}
+      \strng{fullhash}{d486222fa09154b40a44b57b2827362a}
+      \strng{bibnamehash}{d486222fa09154b40a44b57b2827362a}
+      \strng{authorbibnamehash}{d486222fa09154b40a44b57b2827362a}
+      \strng{authornamehash}{d486222fa09154b40a44b57b2827362a}
+      \strng{authorfullhash}{d486222fa09154b40a44b57b2827362a}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{ACM Computing Surveys}
+      \field{number}{3}
+      \field{title}{Survey and Taxonomy of Volunteer Computing}
+      \field{volume}{52}
+      \field{year}{2019}
+      \field{pages}{59:1\bibrangedash 59:35}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1145/3320073
+      \endverb
+    \endentry
+    \entry{Schlitter2013}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=f80e7e4c89db732c82eedec54cdfcd15}{%
+           family={Schlitter},
+           familyi={S\bibinitperiod},
+           given={Nils},
+           giveni={N\bibinitperiod}}}%
+        {{hash=e11ced4d76107579b74f16c772787c74}{%
+           family={Lässig},
+           familyi={L\bibinitperiod},
+           given={Jörg},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Porto, Portugal}%
+      }
+      \strng{namehash}{6139ee3ff061e34ca8a8b43467b8c0d7}
+      \strng{fullhash}{6139ee3ff061e34ca8a8b43467b8c0d7}
+      \strng{bibnamehash}{6139ee3ff061e34ca8a8b43467b8c0d7}
+      \strng{authorbibnamehash}{6139ee3ff061e34ca8a8b43467b8c0d7}
+      \strng{authornamehash}{6139ee3ff061e34ca8a8b43467b8c0d7}
+      \strng{authorfullhash}{6139ee3ff061e34ca8a8b43467b8c0d7}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 4th RapidMiner Community Meeting and Conference (RCOMM)}
+      \field{title}{Distributed Data Analytics using RapidMiner and BOINC}
+      \field{year}{2013}
+      \field{pages}{81\bibrangedash 95}
+      \range{pages}{15}
+    \endentry
+    \entry{Tapparello2015}{incollection}{}
+      \name{author}{4}{}{%
+        {{hash=7b6fe4efa5841a07ea673939d8c1e48d}{%
+           family={Tapparello},
+           familyi={T\bibinitperiod},
+           given={Cristiano},
+           giveni={C\bibinitperiod}}}%
+        {{hash=832208a3f119c4360e6bdd944dbc5762}{%
+           family={Funai},
+           familyi={F\bibinitperiod},
+           given={Carmelo},
+           giveni={C\bibinitperiod}}}%
+        {{hash=29a499ae9f29bce90994656c44c896db}{%
+           family={Hijazi},
+           familyi={H\bibinitperiod},
+           given={Saif},
+           giveni={S\bibinitperiod}}}%
+        {{hash=e640f8ab65b665d537305d2a02cba5f6}{%
+           family={Heinzelman},
+           familyi={H\bibinitperiod},
+           given={Wendi},
+           giveni={W\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IGI Global}%
+      }
+      \strng{namehash}{466e0c2feb3a586c2afd4b81247f0666}
+      \strng{fullhash}{4c73dcb03e213b181b89e7a53dff565a}
+      \strng{bibnamehash}{4c73dcb03e213b181b89e7a53dff565a}
+      \strng{authorbibnamehash}{4c73dcb03e213b181b89e7a53dff565a}
+      \strng{authornamehash}{466e0c2feb3a586c2afd4b81247f0666}
+      \strng{authorfullhash}{4c73dcb03e213b181b89e7a53dff565a}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Mobile Computing and Wireless Networks: Concepts, Methodologies, Tools, and Applications}
+      \field{title}{Volunteer Computing on Mobile Devices: State of the Art and Future Research Directions}
+      \field{year}{2015}
+      \field{pages}{125\bibrangedash 153}
+      \range{pages}{29}
+      \verb{doi}
+      \verb 10.4018/978-1-4666-8662-5.ch005
+      \endverb
+    \endentry
+    \entry{verbraeken2020survey}{article}{}
+      \name{author}{6}{}{%
+        {{hash=aa4390d5ec869f54540c630d3a2fb1c9}{%
+           family={Verbraeken},
+           familyi={V\bibinitperiod},
+           given={Joost},
+           giveni={J\bibinitperiod}}}%
+        {{hash=ace123cad1079ccd98e2ceb937e2438e}{%
+           family={Wolting},
+           familyi={W\bibinitperiod},
+           given={Matthijs},
+           giveni={M\bibinitperiod}}}%
+        {{hash=75def5e23c69eefca9b3cee7db477f9c}{%
+           family={Katzy},
+           familyi={K\bibinitperiod},
+           given={Jonathan},
+           giveni={J\bibinitperiod}}}%
+        {{hash=757607c335d5a6d6a93ea88f898cf8f7}{%
+           family={Kloppenburg},
+           familyi={K\bibinitperiod},
+           given={Jeroen},
+           giveni={J\bibinitperiod}}}%
+        {{hash=7ae0249027282ce63a8b130db60b88f6}{%
+           family={Verbelen},
+           familyi={V\bibinitperiod},
+           given={Tim},
+           giveni={T\bibinitperiod}}}%
+        {{hash=92f9eb98f60d9bf92a68038489ee8719}{%
+           family={Rellermeyer},
+           familyi={R\bibinitperiod},
+           given={Jan\bibnamedelima S.},
+           giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {New York, NY, USA}%
+      }
+      \list{publisher}{1}{%
+        {Association for Computing Machinery}%
+      }
+      \strng{namehash}{a10d54bfc475a7c5e8468aae070fc030}
+      \strng{fullhash}{c8b74ecb8541ad06d96e86aad26fbcea}
+      \strng{bibnamehash}{c8b74ecb8541ad06d96e86aad26fbcea}
+      \strng{authorbibnamehash}{c8b74ecb8541ad06d96e86aad26fbcea}
+      \strng{authornamehash}{a10d54bfc475a7c5e8468aae070fc030}
+      \strng{authorfullhash}{c8b74ecb8541ad06d96e86aad26fbcea}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0360-0300}
+      \field{journaltitle}{ACM Computing Surveys}
+      \field{month}{3}
+      \field{number}{2}
+      \field{title}{A Survey on Distributed Machine Learning}
+      \field{volume}{53}
+      \field{year}{2020}
+      \field{pages}{30:1\bibrangedash 30:33}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1145/3377454
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1145/3377454
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1145/3377454
+      \endverb
+      \keyw{Distributed machine learning,distributed systems}
+    \endentry
+    \entry{RosettaHomeWiki}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=b6aea1a416c89509a7df1cbb69249cb6}{%
+           family={{Wikipedia contributors}},
+           familyi={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{fullhash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{bibnamehash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{authorbibnamehash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{authornamehash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{authorfullhash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://en.wikipedia.org/wiki/Rosetta@home}}
+      \field{note}{Accessed: 2025-04-26}
+      \field{title}{Rosetta@home}
+      \field{year}{2024}
+    \endentry
+    \entry{Zimmerman2021}{article}{}
+      \name{author}{12}{}{%
+        {{hash=e2e298340740a5814857101892ad156f}{%
+           family={Zimmerman},
+           familyi={Z\bibinitperiod},
+           given={Michael\bibnamedelima I.},
+           giveni={M\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+        {{hash=d280a06645baed0585068bbe601eb582}{%
+           family={Porter},
+           familyi={P\bibinitperiod},
+           given={J.\bibnamedelimi R.},
+           giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=b95e7bec4b6c5463be5ce1bfd7850e12}{%
+           family={Ward},
+           familyi={W\bibinitperiod},
+           given={Michael\bibnamedelima D.},
+           giveni={M\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=434ae838d4135756c7e4a8186267d798}{%
+           family={Singh},
+           familyi={S\bibinitperiod},
+           given={Siddharth},
+           giveni={S\bibinitperiod}}}%
+        {{hash=ded576e06b73bfe28e610608c633cc02}{%
+           family={Vithani},
+           familyi={V\bibinitperiod},
+           given={Neha},
+           giveni={N\bibinitperiod}}}%
+        {{hash=18dafcb4f1e33a99145cfdac0340a160}{%
+           family={Meller},
+           familyi={M\bibinitperiod},
+           given={Amit},
+           giveni={A\bibinitperiod}}}%
+        {{hash=74739b39bc35e33289d400749b44d461}{%
+           family={Mallimadugula},
+           familyi={M\bibinitperiod},
+           given={Uma},
+           giveni={U\bibinitperiod}}}%
+        {{hash=f50166c71d67f10aba597f717b6c0b59}{%
+           family={Kuhn},
+           familyi={K\bibinitperiod},
+           given={Carol},
+           giveni={C\bibinitperiod}}}%
+        {{hash=4d9baeada1d6873bdb829fc67edc772d}{%
+           family={Borowsky},
+           familyi={B\bibinitperiod},
+           given={Jessica\bibnamedelima H.},
+           giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=bd89dcc3c60eec7fa452ec4867cd8b92}{%
+           family={Wiewiora},
+           familyi={W\bibinitperiod},
+           given={Eric},
+           giveni={E\bibinitperiod}}}%
+        {{hash=0e72936aca175972141bd8375d780caa}{%
+           family={Research},
+           familyi={R\bibinitperiod},
+           given={D.\bibnamedelimi E.\bibnamedelimi Shaw},
+           giveni={D\bibinitperiod\bibinitdelim E\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=9b1ec280761d95ff18819991f3565de3}{%
+           family={Bowman},
+           familyi={B\bibinitperiod},
+           given={Gregory\bibnamedelima R.},
+           giveni={G\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \strng{namehash}{dbffee9237d417a69cac7a8edea33285}
+      \strng{fullhash}{8ff251b619d0d2d9d1fa87af991be9d4}
+      \strng{bibnamehash}{8ff251b619d0d2d9d1fa87af991be9d4}
+      \strng{authorbibnamehash}{8ff251b619d0d2d9d1fa87af991be9d4}
+      \strng{authornamehash}{dbffee9237d417a69cac7a8edea33285}
+      \strng{authorfullhash}{8ff251b619d0d2d9d1fa87af991be9d4}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature Chemistry}
+      \field{number}{7}
+      \field{title}{SARS-CoV-2 Simulations Go Exascale to Capture Spike Opening and Reveal Cryptic Pockets Across the Proteome}
+      \field{volume}{13}
+      \field{year}{2021}
+      \field{pages}{651\bibrangedash 659}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1038/s41557-021-00707-0
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

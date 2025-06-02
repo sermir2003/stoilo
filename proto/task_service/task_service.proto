@@ -1,0 +1,55 @@
+syntax = "proto3";
+
+package task_service;
+
+service TaskService {
+  rpc CreateTask (CreateTaskRequest) returns (CreateTaskResponse);
+  
+  rpc PollTask (PollTaskRequest) returns (PollTaskResponse);
+}
+
+// see https://github.com/BOINC/boinc/wiki/JobIn#delay_bound
+message RedundancyOptions {
+  int32 min_quorum = 1;
+  int32 target_nresults = 2;
+  int32 max_error_results = 3;
+  int32 max_total_results = 4;
+  int32 max_success_results = 5;
+  int64 delay_bound = 6;
+}
+
+message CreateTaskRequest {
+  string flavor = 1;  // Hash of dependencies installed on raboshka
+  bytes call_spec = 2;  // Serialized python function, arguments and deserializer for returned object
+  bytes init_valid_func = 3;  // Serialized python Callable[[Any], bool]; returned -> is valid
+  bytes compare_valid_func = 4;  // Serialized python Callable[[Any, Any], bool]; returned_1 -> returned_2 -> are equivalent
+  RedundancyOptions redundancy_options = 5;
+}
+
+message CreateTaskResponse {
+  string task_id = 1;  // An empty line means an error
+}
+
+message PollTaskRequest {
+  string task_id = 1;
+}
+
+enum TaskStatus {
+  PENDING = 0;
+  RUNNING = 1;
+  FINISHED = 2;
+}
+
+enum ResultStatus {
+  SUCCESS = 0;
+  USER_ERROR = 1;
+  SYSTEM_ERROR = 2;
+}
+
+message PollTaskResponse {
+  bool found = 1;  // Does the server know about such a task_id?
+  TaskStatus task_status = 2;
+  ResultStatus result_status = 3;  // if finished
+  bytes returned = 4;  // Serialized returned object if success
+  string error_message = 5;  // Error message if user or system error
+}

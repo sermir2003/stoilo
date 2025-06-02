@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "stoilo"
+version = "0.1.0"
+authors = [
+    { name = "Sergei Mironov", email = "sermir2003@gmail.com" },
+]
+description = "A user library for interacting with the distributed volunteer computing system STOILO"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "grpcio-tools>=1.71.0",
+    "cloudpickle>=3.1.1",
+]
+
+[project.optional-dependencies]
+dev = []
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+packages = [
+    "stoilo",
+    "stoilo.low_level",
+    "gened_proto",
+]

@@ -1,0 +1,17 @@
+<add_daemons>
+    <daemon>
+        <cmd>raboshka_work_generator</cmd>
+    </daemon>
+    <daemon>
+        <cmd>script_validator --app raboshka_39754ae2661e5b7b2b776bcd8e4717cc --init_script "raboshka_validator_init result_id files" --compare_script "raboshka_validator_compare result_id files result_id2 files2"</cmd>
+    </daemon>
+    <daemon>
+        <cmd>script_assimilator --app raboshka_39754ae2661e5b7b2b776bcd8e4717cc --script raboshka_assimilator</cmd>
+    </daemon>
+    <daemon>
+        <cmd>script_validator_2 --app raboshka_44814764c91bf9ef426c4aa899df974f --init_script "raboshka_validator_init result_id files" --compare_script "raboshka_validator_compare result_id files result_id2 files2"</cmd>
+    </daemon>
+    <daemon>
+        <cmd>script_assimilator_2 --app raboshka_44814764c91bf9ef426c4aa899df974f --script raboshka_assimilator</cmd>
+    </daemon>
+</add_daemons>

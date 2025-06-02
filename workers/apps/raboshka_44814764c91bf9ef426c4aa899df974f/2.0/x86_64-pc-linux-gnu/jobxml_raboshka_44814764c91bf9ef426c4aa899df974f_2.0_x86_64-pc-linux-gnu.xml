@@ -1,0 +1,6 @@
+<job_desc>
+    <task>
+        <application>raboshka</application>
+        <command_line>call_spec_file result_file</command_line>
+    </task>
+</job_desc>
