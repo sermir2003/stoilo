@@ -1,23 +1,27 @@
 <boinc>
     <app>
-        <name>raboshka_39754ae2661e5b7b2b776bcd8e4717cc</name>
-        <user_friendly_name>raboshka_39754ae2661e5b7b2b776bcd8e4717cc</user_friendly_name>
+        <name>rt_019cc0755e7727ce</name>
+        <user_friendly_name>rt_019cc0755e7727ce</user_friendly_name>
     </app>
     <app>
-        <name>raboshka_44814764c91bf9ef426c4aa899df974f</name>
-        <user_friendly_name>raboshka_44814764c91bf9ef426c4aa899df974f</user_friendly_name>
+        <name>rt_24a6681344294774</name>
+        <user_friendly_name>rt_24a6681344294774</user_friendly_name>
     </app>
     <platform>
         <name>x86_64-pc-linux-gnu</name>
         <user_friendly_name>Linux running on an AMD x86_64 or Intel EM64T CPU</user_friendly_name>
     </platform>
-    <!-- <platform>
-        <name>windows_intelx86</name>
-        <user_friendly_name>Microsoft Windows (98 or later) running on an Intel x86-compatible CPU</user_friendly_name>
-    </platform>
     <platform>
         <name>windows_x86_64</name>
         <user_friendly_name>Microsoft Windows running on an AMD x86_64 or Intel EM64T CPU</user_friendly_name>
+    </platform>
+    <platform>
+        <name>arm64-apple-darwin</name>
+        <user_friendly_name>Mac OS running on ARM</user_friendly_name>
+    </platform>
+    <!-- <platform>
+        <name>windows_intelx86</name>
+        <user_friendly_name>Microsoft Windows (98 or later) running on an Intel x86-compatible CPU</user_friendly_name>
     </platform>
     <platform>
         <name>windows_arm64</name>
@@ -38,10 +42,6 @@
     <platform>
         <name>x86_64-apple-darwin</name>
         <user_friendly_name>Intel 64-bit Mac OS 10.5 or later</user_friendly_name>
-    </platform>
-    <platform>
-        <name>arm64-apple-darwin</name>
-        <user_friendly_name>Mac OS running on ARM</user_friendly_name>
     </platform>
     <platform>
         <name>sparc-sun-solaris2.7</name>

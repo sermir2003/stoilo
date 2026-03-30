@@ -1,4 +1,4 @@
-FROM ubuntu:24.04
+FROM ubuntu:24.04 AS base
 
 
 ### set the most important environment variables
@@ -26,6 +26,8 @@ RUN apt-get update && apt-get install -y \
     autoconf automake libtool \
     # OpenSSL
     libssl-dev libcurl4-openssl-dev \
+    # Other libs
+    nlohmann-json3-dev libzip-dev \
     # deploy
     supervisor cron && \
     # clean apt cache
@@ -36,6 +38,7 @@ ENV PIP_BREAK_SYSTEM_PACKAGES=1
 RUN pip install --no-cache-dir -r ${SERVER_DIR}/deploy/requirements.txt
 
 
+FROM base AS boinc
 ### copy and compile boinc, time-consuming, so runs in the beginning (caches)
 ENV BOINC_SRC_DIR=${SERVER_DIR}/boinc
 COPY boinc/ ${BOINC_SRC_DIR}
@@ -45,6 +48,7 @@ RUN cd ${BOINC_SRC_DIR} && \
     make
 
 
+FROM boinc AS project
 ### declaring env for convenience and copy components
 ENV PROJECTS_DIR=${SERVER_DIR}/projects
 RUN mkdir -p ${PROJECTS_DIR}

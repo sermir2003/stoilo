@@ -29,7 +29,7 @@ if [ ! -d "$PROJECT_DIR" ]; then
     --project_root "$PROJECT_DIR" \
     --no_query \
     "$PROJECT_NAME"
-  
+
   cp "$PROJECT_DIR"/bin/script_validator "$PROJECT_DIR"/bin/script_validator_2
   cp "$PROJECT_DIR"/bin/script_assimilator "$PROJECT_DIR"/bin/script_assimilator_2
 
@@ -62,14 +62,41 @@ EOF
 
 
   echo "[Apps] Moving apps, templates and project.xml..."
+  find "$WORKERS_DIR"/apps -name ".gitignore" -type f -delete
   mv "$WORKERS_DIR"/apps -T "$PROJECT_DIR"/apps
   mv "$WORKERS_DIR"/templates -T "$PROJECT_DIR"/templates
   mv "$WORKERS_DIR"/project.xml -t "$PROJECT_DIR"
-  echo "[Apps] Applying bin/xadd"
+
+  echo "[Apps] Removing non-BOINC app artifacts..."
+  find "$PROJECT_DIR"/apps -type f \
+    \( -name '*.dvc' -o -name '*build*.json' \) \
+    -delete
+
+  echo "[Apps] Signing app_version files..."
+  find "$PROJECT_DIR"/apps -type f \
+    ! -name '*.sig' \
+    | while read -r f; do
+        echo "[Apps] signing $f"
+        "$PROJECT_DIR"/bin/crypt_prog -sign "$f" "$PROJECT_DIR"/keys/code_sign_private > "${f}.sig"
+      done
+
+  echo "[Apps] Applying bin/xadd..."
   cd "$PROJECT_DIR"
   bin/xadd
-  echo "[Apps] Applying bin/update_versions"
-  cd "$PROJECT_DIR"
+
+  echo "[Apps] Checking app versions (dry-run update_versions)..."
+  set +e
+  DRY_RUN_OUTPUT=$(echo n | bin/update_versions 2>&1)
+  DRY_RUN_EXIT=$?
+  set -e
+  echo "$DRY_RUN_OUTPUT"
+  if echo "$DRY_RUN_OUTPUT" | grep -q "SECURITY VULNERABILITY"; then
+    echo "[Apps][ERROR] Unsigned files detected during dry-run!"
+    exit 1
+  fi
+  echo "[Apps] Dry-run check completed successfully"
+
+  echo "[Apps] Applying app versions (update_versions)..."
   yes | bin/update_versions
   echo "[Apps] Applications deployed!"
 
@@ -78,16 +105,16 @@ EOF
 
   echo "[Daemons] Create links to daemons..."
   LINKS=(
-    raboshka_work_generator
-    raboshka_assimilator
-    raboshka_validator_init
-    raboshka_validator_compare
+    runner_work_generator
+    runner_assimilator
+    runner_validator_init
+    runner_validator_compare
   )
   for name in "${LINKS[@]}"; do
-    if [[ $name == raboshka_validator_* ]]; then
-      module="raboshka_validator"
+    if [[ $name == runner_validator_* ]]; then
+      module="runner_validator"
       # extract “init” or “compare” from the link name
-      args="--${name#raboshka_validator_}"
+      args="--${name#runner_validator_}"
     else
       module="$name"
       args=""

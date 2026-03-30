@@ -1,0 +1,6 @@
+[core]
+    remote = ycs3
+['remote "ycs3"']
+    url = s3://stoilo-binaries/dvc-cache
+    endpointurl = https://storage.yandexcloud.net
+    region = ru-central1

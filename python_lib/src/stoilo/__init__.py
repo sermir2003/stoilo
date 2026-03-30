@@ -1,4 +1,4 @@
 from stoilo.low_level.connection import connect
-from . import ddl
+# from . import ddl
 
-__all__ = ["connect", "ddl"]
+__all__ = ["connect"]

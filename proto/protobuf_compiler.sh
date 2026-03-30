@@ -32,7 +32,7 @@ generate() {
 
     for PROTO in "${PROTO_FILES[@]}"; do
       echo "  $PROTO"
-      python -m grpc_tools.protoc \
+      python3 -m grpc_tools.protoc \
         --proto_path="$PROTO_DIR" \
         --python_out="$DEST" \
         --grpc_python_out="$DEST" \

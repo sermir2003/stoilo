@@ -1,0 +1,20 @@
+{
+  "app_name": "rt_019cc0755e7727ce",
+  "flavor": "019cc0755e7727ce",
+  "version": "1.0",
+  "platform": "windows_x86_64",
+  "artifact_name": "rt_019cc0755e7727ce_1.0_windows_x86_64",
+  "runtime_spec_md5": "019cc0755e7727ce8d6c383804c9d147",
+  "python_version": "3.12.3",
+  "cloudpickle_version": "3.1.1",
+  "pyinstaller_version": "6.13.0",
+  "requirements": [
+    "numpy==2.2.5",
+    "cloudpickle==3.1.1"
+  ],
+  "modules": [
+    "numpy",
+    "cloudpickle"
+  ],
+  "build_time_utc": "2026-03-27T04:06:43.165244+00:00"
+}

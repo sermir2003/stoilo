@@ -5,13 +5,17 @@ stoilo.egg-info/
 
 /boinc/
 
-/workers/apps/raboshka_*/*/*/raboshka_*_*_*
-
 /python_lib/examples/*
 !/python_lib/examples/*.ipynb
 /python_lib/examples/_*.ipynb
 
+/workers/devops/building
+
 .trash/
+
+.secrets
+
+/build_wrapper
 
 # LaTeX intermediate files
 /text/*.aux

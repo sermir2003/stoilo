@@ -19,17 +19,17 @@ import stoilo
 
 async def main():
     conn = await stoilo.connect('localhost:57010')
-    
+
     task = conn.create_task(
-        kwargs={"a": 2, "b": 3},
-        func=lambda kwargs: kwargs["a"] + kwargs["b"]
+        kwargs={'a': 2, 'b': 3},
+        func=lambda kwargs: kwargs['a'] + kwargs['b']
     )
-    
+
     result = await task.submit()
-    print(f"Task result: {result}")
+    print(f'Task result: {result}')
 
 
-if __name__ == "__main__":
+if __name__ == '__main__':
     asyncio.run(main())
 ```
 

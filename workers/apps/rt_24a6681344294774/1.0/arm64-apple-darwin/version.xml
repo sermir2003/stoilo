@@ -1,0 +1,14 @@
+<version>
+   <file>
+      <physical_name>wrapper_26019_arm64-apple-darwin</physical_name>
+      <main_program/>
+   </file>
+   <file>
+      <physical_name>rt_24a6681344294774_1.0_arm64-apple-darwin</physical_name>
+      <logical_name>runner</logical_name>
+   </file>
+   <file>
+      <physical_name>jobxml_rt_24a6681344294774_1.0_arm64-apple-darwin.xml</physical_name>
+      <logical_name>job.xml</logical_name>
+   </file>
+</version>

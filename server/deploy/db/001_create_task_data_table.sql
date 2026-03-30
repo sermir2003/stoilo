@@ -1,7 +1,7 @@
 DROP TABLE IF EXISTS task_data;
 
 CREATE TABLE task_data (
-  task_id                     VARCHAR(32)   NOT NULL         COMMENT 'UUID hex string, primary key',
+  task_id                     VARCHAR(36)   NOT NULL         COMMENT 'UUID string, primary key',
   call_spec                   LONGBLOB      NOT NULL         COMMENT 'Serialized python function and arguments',
   init_valid_func             LONGBLOB      NOT NULL         COMMENT 'Serialized initial validation function',
   compare_valid_func          LONGBLOB      NOT NULL         COMMENT 'Serialized comparative validation function',

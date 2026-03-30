@@ -1,0 +1,24 @@
+{
+  "app_name": "rt_24a6681344294774",
+  "flavor": "24a6681344294774",
+  "version": "1.0",
+  "platform": "x86_64-pc-linux-gnu",
+  "artifact_name": "rt_24a6681344294774_1.0_x86_64-pc-linux-gnu",
+  "runtime_spec_md5": "24a66813442947749094497808693371",
+  "python_version": "3.12.3",
+  "cloudpickle_version": "3.1.1",
+  "pyinstaller_version": "6.13.0",
+  "requirements": [
+    "numpy==2.2.5",
+    "torch==2.7.0",
+    "torchvision==0.22.0",
+    "cloudpickle==3.1.1"
+  ],
+  "modules": [
+    "numpy",
+    "torch",
+    "torchvision",
+    "cloudpickle"
+  ],
+  "build_time_utc": "2026-03-25T22:46:42.591694+00:00"
+}
