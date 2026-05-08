@@ -12,6 +12,7 @@ stoilo.egg-info/
 /workers/devops/building
 
 .trash/
+.DS_Store
 
 .secrets
 
@@ -36,3 +37,5 @@ stoilo.egg-info/
 /text/*.fdb_latexmk
 /text/*.synctex.gz
 /text/*.xdv
+
+*.drawio.bkp
