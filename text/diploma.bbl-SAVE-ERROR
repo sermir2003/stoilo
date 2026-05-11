@@ -271,6 +271,75 @@
       \endverb
       \keyw{Deep learning,distributed computing,parallel algorithms}
     \endentry
+    \entry{boinc_code_signing}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=d635c357a27ae0fe81ee61ae963be443}{%
+           family={{BOINC Project}},
+           familyi={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{d635c357a27ae0fe81ee61ae963be443}
+      \strng{fullhash}{d635c357a27ae0fe81ee61ae963be443}
+      \strng{fullhashraw}{d635c357a27ae0fe81ee61ae963be443}
+      \strng{bibnamehash}{d635c357a27ae0fe81ee61ae963be443}
+      \strng{authorbibnamehash}{d635c357a27ae0fe81ee61ae963be443}
+      \strng{authornamehash}{d635c357a27ae0fe81ee61ae963be443}
+      \strng{authorfullhash}{d635c357a27ae0fe81ee61ae963be443}
+      \strng{authorfullhashraw}{d635c357a27ae0fe81ee61ae963be443}
+      \field{extraname}{1}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://github.com/BOINC/boinc/wiki/Code-signing}}
+      \field{note}{Accessed: 2026-05-10}
+      \field{title}{Code Signing}
+    \endentry
+    \entry{boinc_vbox_apps}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=d635c357a27ae0fe81ee61ae963be443}{%
+           family={{BOINC Project}},
+           familyi={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{d635c357a27ae0fe81ee61ae963be443}
+      \strng{fullhash}{d635c357a27ae0fe81ee61ae963be443}
+      \strng{fullhashraw}{d635c357a27ae0fe81ee61ae963be443}
+      \strng{bibnamehash}{d635c357a27ae0fe81ee61ae963be443}
+      \strng{authorbibnamehash}{d635c357a27ae0fe81ee61ae963be443}
+      \strng{authornamehash}{d635c357a27ae0fe81ee61ae963be443}
+      \strng{authorfullhash}{d635c357a27ae0fe81ee61ae963be443}
+      \strng{authorfullhashraw}{d635c357a27ae0fe81ee61ae963be443}
+      \field{extraname}{2}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://github.com/BOINC/boinc/wiki/VboxApps}}
+      \field{note}{Accessed: 2026-05-10}
+      \field{title}{Running Apps in VirtualBox Virtual Machines}
+    \endentry
+    \entry{boinc_security}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=d635c357a27ae0fe81ee61ae963be443}{%
+           family={{BOINC Project}},
+           familyi={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{d635c357a27ae0fe81ee61ae963be443}
+      \strng{fullhash}{d635c357a27ae0fe81ee61ae963be443}
+      \strng{fullhashraw}{d635c357a27ae0fe81ee61ae963be443}
+      \strng{bibnamehash}{d635c357a27ae0fe81ee61ae963be443}
+      \strng{authorbibnamehash}{d635c357a27ae0fe81ee61ae963be443}
+      \strng{authornamehash}{d635c357a27ae0fe81ee61ae963be443}
+      \strng{authorfullhash}{d635c357a27ae0fe81ee61ae963be443}
+      \strng{authorfullhashraw}{d635c357a27ae0fe81ee61ae963be443}
+      \field{extraname}{3}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://github.com/BOINC/boinc/wiki/Security-in-volunteer-computing}}
+      \field{note}{Accessed: 2026-05-10}
+      \field{title}{Security in Volunteer Computing}
+    \endentry
     \entry{Clemens2021}{article}{}{}
       \name{author}{1}{}{%
         {{hash=5875059ffa5a093df89aff60d00b4c0e}{%
@@ -345,6 +414,52 @@
       \verb 10.1109/IPDPS.2008.4536446
       \endverb
       \keyw{Testing,Middleware,Data models,Prototypes,Network servers,File servers,Bandwidth,Distributed computing,Time sharing computer systems,Performance evaluation}
+    \endentry
+    \entry{dask_distributed}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=819245a454bbc7f3ee9a0be803ccd617}{%
+           family={{Dask Developers}},
+           familyi={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{819245a454bbc7f3ee9a0be803ccd617}
+      \strng{fullhash}{819245a454bbc7f3ee9a0be803ccd617}
+      \strng{fullhashraw}{819245a454bbc7f3ee9a0be803ccd617}
+      \strng{bibnamehash}{819245a454bbc7f3ee9a0be803ccd617}
+      \strng{authorbibnamehash}{819245a454bbc7f3ee9a0be803ccd617}
+      \strng{authornamehash}{819245a454bbc7f3ee9a0be803ccd617}
+      \strng{authorfullhash}{819245a454bbc7f3ee9a0be803ccd617}
+      \strng{authorfullhashraw}{819245a454bbc7f3ee9a0be803ccd617}
+      \field{extraname}{1}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://distributed.dask.org/}}
+      \field{note}{Accessed: 2026-05-08}
+      \field{title}{Dask.distributed --- Dask.distributed Documentation}
+    \endentry
+    \entry{dask_protocol}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=819245a454bbc7f3ee9a0be803ccd617}{%
+           family={{Dask Developers}},
+           familyi={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{819245a454bbc7f3ee9a0be803ccd617}
+      \strng{fullhash}{819245a454bbc7f3ee9a0be803ccd617}
+      \strng{fullhashraw}{819245a454bbc7f3ee9a0be803ccd617}
+      \strng{bibnamehash}{819245a454bbc7f3ee9a0be803ccd617}
+      \strng{authorbibnamehash}{819245a454bbc7f3ee9a0be803ccd617}
+      \strng{authornamehash}{819245a454bbc7f3ee9a0be803ccd617}
+      \strng{authorfullhash}{819245a454bbc7f3ee9a0be803ccd617}
+      \strng{authorfullhashraw}{819245a454bbc7f3ee9a0be803ccd617}
+      \field{extraname}{2}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://distributed.dask.org/en/latest/protocol.html}}
+      \field{note}{Accessed: 2026-05-08}
+      \field{title}{Protocol --- Dask.distributed Documentation}
     \endentry
     \entry{Desell2017}{article}{}{}
       \name{author}{1}{}{%
@@ -501,6 +616,140 @@
       \verb{doi}
       \verb 10.1145/3320073
       \endverb
+    \endentry
+    \entry{ray_osdi18}{inproceedings}{}{}
+      \name{author}{11}{}{%
+        {{hash=a901fd78fe1108cfa7d11129644967c7}{%
+           family={Moritz},
+           familyi={M\bibinitperiod},
+           given={Philipp},
+           giveni={P\bibinitperiod}}}%
+        {{hash=60380b3a2f3cf35fc1d43074792d7567}{%
+           family={Nishihara},
+           familyi={N\bibinitperiod},
+           given={Robert},
+           giveni={R\bibinitperiod}}}%
+        {{hash=b0d84f8e900277f8cddac6965d09b408}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Stephanie},
+           giveni={S\bibinitperiod}}}%
+        {{hash=ad2f246f98d3a755e02cb3f20af4057e}{%
+           family={Tumanov},
+           familyi={T\bibinitperiod},
+           given={Alexey},
+           giveni={A\bibinitperiod}}}%
+        {{hash=3eb896f5341af6688c143d8081eac1fe}{%
+           family={Liaw},
+           familyi={L\bibinitperiod},
+           given={Richard},
+           giveni={R\bibinitperiod}}}%
+        {{hash=882d47329b54117fb0b9bba0fecb0e2b}{%
+           family={Liang},
+           familyi={L\bibinitperiod},
+           given={Eric},
+           giveni={E\bibinitperiod}}}%
+        {{hash=ad769732d78c86d429ff0cf82e831543}{%
+           family={Elibol},
+           familyi={E\bibinitperiod},
+           given={Melih},
+           giveni={M\bibinitperiod}}}%
+        {{hash=9cebeff55132aa441f26afb504ef6a29}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Zongheng},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=88c7f6c0c33dc4d9d14f34d0e2cf1282}{%
+           family={Paul},
+           familyi={P\bibinitperiod},
+           given={William},
+           giveni={W\bibinitperiod}}}%
+        {{hash=8a36116840c7ee55901618c95fd08a58}{%
+           family={Jordan},
+           familyi={J\bibinitperiod},
+           given={Michael\bibnamedelima I.},
+           giveni={M\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+        {{hash=51d9ef26181e2e8a9dc546b401e0bb26}{%
+           family={Stoica},
+           familyi={S\bibinitperiod},
+           given={Ion},
+           giveni={I\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Carlsbad, CA}%
+      }
+      \list{publisher}{1}{%
+        {USENIX Association}%
+      }
+      \strng{namehash}{0ae2109b9e56b2a6b72a8a913afc67cc}
+      \strng{fullhash}{ac0232fba7823fe54dd5c0400d304aec}
+      \strng{fullhashraw}{ac0232fba7823fe54dd5c0400d304aec}
+      \strng{bibnamehash}{ac0232fba7823fe54dd5c0400d304aec}
+      \strng{authorbibnamehash}{ac0232fba7823fe54dd5c0400d304aec}
+      \strng{authornamehash}{0ae2109b9e56b2a6b72a8a913afc67cc}
+      \strng{authorfullhash}{ac0232fba7823fe54dd5c0400d304aec}
+      \strng{authorfullhashraw}{ac0232fba7823fe54dd5c0400d304aec}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{13th USENIX Symposium on Operating Systems Design and Implementation (OSDI 18)}
+      \field{isbn}{978-1-939133-08-3}
+      \field{month}{10}
+      \field{title}{Ray: A Distributed Framework for Emerging {AI} Applications}
+      \field{year}{2018}
+      \field{pages}{561\bibrangedash 577}
+      \range{pages}{17}
+      \verb{urlraw}
+      \verb https://www.usenix.org/conference/osdi18/presentation/moritz
+      \endverb
+      \verb{url}
+      \verb https://www.usenix.org/conference/osdi18/presentation/moritz
+      \endverb
+    \endentry
+    \entry{python_pickle_security}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=c7b5508dc5e59a2846d22617276cc27c}{%
+           family={{Python Software Foundation}},
+           familyi={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{c7b5508dc5e59a2846d22617276cc27c}
+      \strng{fullhash}{c7b5508dc5e59a2846d22617276cc27c}
+      \strng{fullhashraw}{c7b5508dc5e59a2846d22617276cc27c}
+      \strng{bibnamehash}{c7b5508dc5e59a2846d22617276cc27c}
+      \strng{authorbibnamehash}{c7b5508dc5e59a2846d22617276cc27c}
+      \strng{authornamehash}{c7b5508dc5e59a2846d22617276cc27c}
+      \strng{authorfullhash}{c7b5508dc5e59a2846d22617276cc27c}
+      \strng{authorfullhashraw}{c7b5508dc5e59a2846d22617276cc27c}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://docs.python.org/3/library/pickle.html}}
+      \field{note}{Accessed: 2026-05-10}
+      \field{title}{pickle --- Python Object Serialization}
+    \endentry
+    \entry{ray_serialization}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=767aaf65ff4d97d1acf017d59ec09764}{%
+           family={{Ray Project}},
+           familyi={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{767aaf65ff4d97d1acf017d59ec09764}
+      \strng{fullhash}{767aaf65ff4d97d1acf017d59ec09764}
+      \strng{fullhashraw}{767aaf65ff4d97d1acf017d59ec09764}
+      \strng{bibnamehash}{767aaf65ff4d97d1acf017d59ec09764}
+      \strng{authorbibnamehash}{767aaf65ff4d97d1acf017d59ec09764}
+      \strng{authornamehash}{767aaf65ff4d97d1acf017d59ec09764}
+      \strng{authorfullhash}{767aaf65ff4d97d1acf017d59ec09764}
+      \strng{authorfullhashraw}{767aaf65ff4d97d1acf017d59ec09764}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://docs.ray.io/en/latest/ray-core/objects/serialization.html}}
+      \field{note}{Accessed: 2026-05-08}
+      \field{title}{Serialization --- Ray Documentation}
     \endentry
     \entry{Schlitter2013}{inproceedings}{}{}
       \name{author}{2}{}{%
